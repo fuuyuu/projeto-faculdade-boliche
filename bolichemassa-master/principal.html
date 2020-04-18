@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+        <title>Bowling</title>
+</head>
+<body style="background-color: darkgray">
+    <div class="container">
+    
+        <h1 class="center">Bolichão Massa</h1>
+
+        <h3>Bem vindos ao sistema de boliche massa.</h3>
+        <h4>Os jogos são feitos em grupos de até 3 jogadores! Boa sorte.</h4>
+
+        <form action="principal.php" method="POST">
+            <div id="siglaJogadores">
+            </div>
+
+            <div id="startarJogo">
+            </div>
+        </form>
+        
+       
+
+        <table id="placar">
+
+        </table>
+
+        <input id="numberPlayers" type="number" min="1" max="3"  />
+        <button id="start" onclick="startingGame()">START</button>
+    </div>
+    </table></div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/principal.js"></script>
+    <!-- <script src="js/game.js"></script> -->
+</body>
+</html>
